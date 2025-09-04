@@ -7,6 +7,7 @@
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Showcard+Gothic&family=Roboto+Serif:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
@@ -16,34 +17,37 @@
 <body>
 
   <!-- Hero Section -->
-  <section class="hero">
-    <nav class="navbar">
-      <div class="logo-container">
-        <i class="fas fa-child logo-icon"></i>
-        <h1 class="logo">Little Bloom</h1>
-      </div>
-
-      <ul class="nav-links">
-        <li><a href="#about-us">About Us</a></li>
-        <li><a href="#programs">Programs</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#faculty">Faculty</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-      </ul>
-    </nav>
-    
-    <div class="hero-content">
-      <h2 class="hero-title">
-        A Bright start for your <span>Little Learners</span>
-      </h2>
-      <p class="hero-subtitle">
-        Helping young minds grow through play, creativity, and guidance, 
-        so every child feels confident and ready for the world.
-      </p>
-      <button class="discover-btn" id="discoverBtn">Discover More</button>
+<section class="hero">
+  <nav class="navbar">
+    <div class="logo-container">
+      <img src="media/little-bloom-logo.png" alt="School Logo" class="school-logo" />
+      <h1 class="logo">Little Bloom</h1>
     </div>
-  </section>
+
+    <ul class="nav-links">
+      <li><a href="#about-us">About Us</a></li>
+      <li><a href="#programs">Programs</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#faculty">Faculty</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+  
+  <div class="hero-content">
+    <h2 class="hero-title">
+      A Bright start for your <span>Little Learners</span>
+    </h2>
+    <p class="hero-subtitle">
+      Helping young minds grow through play, creativity, and guidance, 
+      so every child feels confident and ready for the world.
+    </p>
+    <div class="hero-buttons">
+      <button class="discover-btn" id="discoverBtn">Discover More</button>
+      <a href="https://forms.gle/your-google-form-link" target="_blank" class="apply-btn">Apply Now</a>
+    </div>
+  </div>
+</section>
 
   <!-- About Section -->
   <section id="about-us" class="about-section">
@@ -125,6 +129,44 @@
       </div>
     </div>
   </section>
+<!-- Special Activities Section -->
+<section class="special-section">
+  <div class="special-container">
+    <h2 class="section-title">
+      Special Activities & <span class="highlight">Enrichment</span>
+    </h2>
+    <p class="section-subtitle">
+      Beyond academics, we offer diverse activities that help children discover their interests and talents.
+    </p>
+
+    <div class="activities-grid">
+      <div class="activity-card">
+        <img src="media/Creative Arts.png" alt="Creative Arts" class="activity-icon" />
+        <h3>Creative Arts</h3>
+        <p>Drawing, painting, and crafts to enhance creativity and fine motor skills</p>
+      </div>
+
+      <div class="activity-card">
+        <img src="media/Music & Dance.png" alt="Music & Dance" class="activity-icon" />
+        <h3>Music & Dance</h3>
+        <p>Classical and folk music, rhythm activities, and traditional dance forms</p>
+      </div>
+
+      <div class="activity-card">
+        <img src="media/Storytelling.png" alt="Storytelling" class="activity-icon" />
+        <h3>Storytelling</h3>
+        <p>Interactive stories, role-play, and puppet shows for language development</p>
+      </div>
+
+      <div class="activity-card">
+        <img src="media/Math Concepts.png" alt="Math Concepts" class="activity-icon" />
+        <h3>Math Concepts</h3>
+        <p>Number games, pattern recognition, and hands-on mathematical exploration</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
   <!-- Gallery Section -->
   <section id="gallery" class="gallery-section">
@@ -185,74 +227,95 @@
     </div>
   </section>
 
-  <!-- Faculty Section -->
-  <section id="faculty" class="faculty-section">
-    <div class="faculty-container">
-      <div class="section-header">
-        <h2>Meet Our Beloved Mentors</h2>
-        <p>The passionate educators who make learning magical</p>
-        <div class="underline"></div>
+<!-- Faculty Section -->
+<section id="faculty" class="faculty-section">
+  <div class="faculty-container">
+    <div class="section-header">
+      <h2>Meet Our Beloved Mentors</h2>
+      <p>The passionate educators who make learning magical</p>
+      <div class="underline"></div>
+    </div>
+
+    <div class="faculty-grid">
+      <!-- Teacher 1 -->
+      <div class="teacher-card">
+        <div class="teacher-img-container">
+          <img src="media/teacher1.jpg" alt="Ms. Sarah Johnson" class="teacher-img">
+        </div>
+        <h3>Mrs. Anjali Mehta</h3>
+        <p>Head Kindergarten Teacher</p>
       </div>
 
-      <div class="faculty-grid">
-        <!-- Teacher 1 -->
-        <div class="teacher-card">
-          <div class="teacher-img-container">
-            <img src="media/teacher1.jpg" alt="Ms. Sarah Johnson" class="teacher-img">
-            <div class="social-links">
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-          </div>
-          <h3>Mrs. Anjali Mehta</h3>
-          <p>Head Kindergarten Teacher</p>
+      <!-- Teacher 2 -->
+      <div class="teacher-card">
+        <div class="teacher-img-container">
+          <img src="media/teacher2.jpg" alt="Mr. David Chen" class="teacher-img">
         </div>
+        <h3>Mrs. Sneha Iyer</h3>
+        <p>Nursery Teacher</p>
+      </div>
 
-        <!-- Teacher 2 -->
-        <div class="teacher-card">
-          <div class="teacher-img-container">
-            <img src="media/teacher2.jpg" alt="Mr. David Chen" class="teacher-img">
-            <div class="social-links">
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-          </div>
-          <h3>Mrs. Sneha Iyer</h3>
-          <p>Nursery Teacher</p>
+      <!-- Teacher 3 -->
+      <div class="teacher-card">
+        <div class="teacher-img-container">
+          <img src="media/teacher3.jpg" alt="Mrs. Priya Patel" class="teacher-img">
         </div>
+        <h3>Ms. Priya Sharma</h3>
+        <p>LKG Teacher</p>
+      </div>
 
-        <!-- Teacher 3 -->
-        <div class="teacher-card">
-          <div class="teacher-img-container">
-            <img src="media/teacher3.jpg" alt="Mrs. Priya Patel" class="teacher-img">
-            <div class="social-links">
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-          </div>
-          <h3>Ms. Priya Sharma</h3>
-          <p>LKG Teacher</p>
+      <!-- Teacher 4 -->
+      <div class="teacher-card">
+        <div class="teacher-img-container">
+          <img src="media/teacher4.jpg" alt="Mr. James Wilson" class="teacher-img">
         </div>
-
-        <!-- Teacher 4 -->
-        <div class="teacher-card">
-          <div class="teacher-img-container">
-            <img src="media/teacher4.jpg" alt="Mr. James Wilson" class="teacher-img">
-            <div class="social-links">
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-          </div>
-          <h3>Ms. Kavita Reddy</h3>
-          <p>UKG Teacher</p>
-        </div>
+        <h3>Ms. Kavita Reddy</h3>
+        <p>UKG Teacher</p>
       </div>
     </div>
-  </section> 
+  </div>
+</section>
+ 
+
+  <!-- Teaching Excellence Section -->
+<section class="excellence-section">
+  <div class="excellence-container">
+    <h2 class="section-title">
+      Our Teaching <span class="highlight">Excellence</span>
+    </h2>
+    <p class="section-subtitle">
+      Every member of our faculty is carefully selected and continuously trained to ensure the highest standards of education and care.
+    </p>
+
+    <div class="excellence-grid">
+      <div class="excellence-card">
+        <img src="media/Advanced Degrees.png" alt="Advanced Degrees" class="excellence-icon" />
+        <h3>Advanced Degrees</h3>
+        <p>All teachers hold minimum B.Ed with specialization in early childhood education</p>
+      </div>
+
+      <div class="excellence-card">
+        <img src="media/Certified Training.png" alt="Certified Training" class="excellence-icon" />
+        <h3>Certified Training</h3>
+        <p>Regular workshops and certifications in modern teaching methodologies</p>
+      </div>
+
+      <div class="excellence-card">
+        <img src="media/Child-Centric Approach.png" alt="Child-Centric Approach" class="excellence-icon" />
+        <h3>Child-Centric Approach</h3>
+        <p>Passionate educators who understand each child's unique learning style</p>
+      </div>
+
+      <div class="excellence-card">
+        <img src="media/Continuous Development.png" alt="Continuous Development" class="excellence-icon" />
+        <h3>Continuous Development</h3>
+        <p>Ongoing professional development to stay updated with latest educational practices</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
   <!-- Testimonials Section -->
   <section id="testimonials" class="testimonials-section">
@@ -332,92 +395,133 @@
     </div>
   </section>
 
-  <section id="contact" class="glass-contact-section">
-    <div class="glass-container">
-      <h2 class="glass-title">Contact Us</h2>
-      <p class="glass-subtitle">Reach out to our Little Bloom family</p>
-      <div class="yellow-underline"></div>
-      <div class="glass-grid">
-        <!-- Phone -->
-        <div class="glass-card">
-          <div class="glass-icon">📞</div>
-          <h3>Call Us</h3>
-          <p>+1 (234) 567 89 00</p>
-        </div>
-        
-        <!-- Email -->
-        <div class="glass-card">
-          <div class="glass-icon">✉️</div>
-          <h3>Email</h3>
-          <p>info@littlebloom.com</p>
-        </div>
-        
-        <!-- Address -->
-        <div class="glass-card">
-          <div class="glass-icon">📍</div>
-          <h3>Visit</h3>
-          <p>123 Kinder Lane, Bloomtown</p>
-        </div>
-        
-        <!-- Hours -->
-        <div class="glass-card">
-          <div class="glass-icon">🕒</div>
-          <h3>Hours</h3>
-          <p>Mon-Sat (8AM-5PM)</p>
-        </div>
+<section id="contact" class="glass-contact-section">
+  <div class="glass-container">
+    <h2 class="glass-title">Contact Us</h2>
+    <p class="glass-subtitle">Reach out to our Little Bloom family</p>
+    <div class="yellow-underline"></div>
+    
+    <div class="glass-grid">
+      <!-- Phone -->
+      <div class="glass-card">
+        <div class="glass-icon">📞</div>
+        <h3>Call Us</h3>
+        <p>+1 (234) 567 89 00</p>
       </div>
-      
-      <a href="https://forms.google.com/your-form-link" class="glass-enroll-btn" target="_blank">
-        Enroll Now
-        <span class="hover-effect"></span>
-      </a>
-    </div>
-  </section>
-
-  <footer class="site-footer">
-    <div class="footer-container">
-      <!-- Logo + Description -->
-      <div class="footer-section logo-section">
-        <div class="logo-container">
-          <img src="media/little-bloom-logo.png" alt="Little Bloom Logo" class="footer-logo" />
-          <span class="logo-name">Little Bloom</span>
-        </div>
-        <p class="footer-description">
-          Nurturing young minds with care and creativity since 2015.
-        </p>
+      <!-- Email -->
+      <div class="glass-card">
+        <div class="glass-icon">✉️</div>
+        <h3>Email</h3>
+        <p>info@littlebloom.com</p>
       </div>
-
-      <!-- Quick Links -->
-      <nav class="footer-section links-section" aria-label="Footer Quick Links">
-        <h3 class="footer-heading">Quick Links</h3>
-        <ul class="footer-links">
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#programs">Programs</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#faculty">Faculty</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#contact">Contact Us</a></li>
-        </ul>
-      </nav>
-
-      <!-- Contact -->
-      <div class="footer-section contact-section">
-        <h3 class="footer-heading">Contact Us</h3>
-        <ul class="contact-info">
-          <li><i class="fas fa-map-marker-alt"></i> 123 Kinder Lane, Bloomtown</li>
-          <li><i class="fas fa-phone"></i> (123) 456-7890</li>
-          <li><i class="fas fa-envelope"></i> info@littlebloom.com</li>
-          <li><i class="fas fa-clock"></i> Mon–Fri: 8:00 AM – 5:00 PM</li>
-        </ul>
+      <!-- Address -->
+      <div class="glass-card">
+        <div class="glass-icon">📍</div>
+        <h3>Visit</h3>
+        <p>123 Kinder Lane, Bloomtown</p>
+      </div>
+      <!-- Hours -->
+      <div class="glass-card">
+        <div class="glass-icon">🕒</div>
+        <h3>Hours</h3>
+        <p>Mon-Sat (8AM-5PM)</p>
       </div>
     </div>
-
-    <div class="copyright-section">
-      <p>© 2025 Little Bloom. All rights reserved.
-        <span class="powered-by">Powered by CampusLaunch</span>
+    
+    <a href="https://forms.google.com/your-form-link" class="glass-enroll-btn" target="_blank">
+      Enroll Now
+      <span class="hover-effect"></span>
+    </a>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="footer-container">
+    <!-- Logo + Description -->
+    <div class="footer-section logo-section">
+      <div class="logo-container">
+        <img src="media/little-bloom-logo.png" alt="Little Bloom Logo" class="footer-logo" />
+        <span class="logo-name">Little Bloom</span>
+      </div>
+      <p class="footer-description">
+        Nurturing young minds with care and creativity since 2015.
       </p>
+      <!-- Social Links -->
+      <div class="social-links">
+        <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
     </div>
-  </footer>
+
+    <!-- Quick Links -->
+    <nav class="footer-section links-section" aria-label="Footer Quick Links">
+      <h3 class="footer-heading">Quick Links</h3>
+      <ul class="footer-links">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#faculty">Faculty</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <!-- Resources -->
+    <div class="footer-section resources-section">
+      <h3 class="footer-heading">Resources</h3>
+      <ul class="resources-list">
+        <li><a href="#">Curriculum Guide</a></li>
+        <li><a href="#">Safety Policies</a></li>
+        <li><a href="#">Events Calendar</a></li>
+        <li><a href="#">Learning Resources</a></li>
+      </ul>
+    </div>
+
+    <!-- Downloads -->
+    <div class="footer-section downloads-section">
+      <h3 class="footer-heading">Download Important Documents</h3>
+      <ul class="downloads-list">
+        <li>
+          <a href="docs/admission-form.pdf" download>
+            Admission Form 2025-26
+            <span>PDF, 2.5 MB</span>
+          </a>
+        </li>
+        <li>
+          <a href="docs/fee-structure.pdf" download>
+            Fee Structure
+            <span>PDF, 1.2 MB</span>
+          </a>
+        </li>
+        <li>
+          <a href="docs/school-policies.pdf" download>
+            School Policies
+            <span>PDF, 3.1 MB</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div class="footer-section contact-section">
+      <h3 class="footer-heading">Contact Us</h3>
+      <ul class="contact-info">
+        <li><i class="fas fa-map-marker-alt"></i> 123 Kinder Lane, Bloomtown</li>
+        <li><i class="fas fa-phone"></i> (123) 456-7890</li>
+        <li><i class="fas fa-envelope"></i> info@littlebloom.com</li>
+        <li><i class="fas fa-clock"></i> Mon–Fri: 8:00 AM – 5:00 PM</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="copyright-section">
+    <p>© 2025 Little Bloom. All rights reserved.
+      <span class="powered-by">Powered by CampusLaunch</span>
+    </p>
+  </div>
+</footer>
+
 
   <!-- Scripts -->
   <script src="script.js"></script>
